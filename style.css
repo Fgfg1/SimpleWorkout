@@ -1,6 +1,6 @@
 :root{
-    --Background: rgb(21, 11, 75);
-    --Background_Hover: rgb(77, 69, 124); 
+    --Background: rgb(39, 39, 39);
+    --Background_Hover: rgb(0, 0, 0); 
     --Text_Color: black;
     --Hamburger_Color: black;
 }
