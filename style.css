@@ -13,6 +13,11 @@ a{
     font-size: 1.3rem;
     font-weight: bold;
 }
+
+:root{
+    --background: rgb(21, 11, 75);
+    --background_Hover: rgb(77, 69, 124); 
+}
   
 /* navbar styling */
 .navbar{
@@ -21,7 +26,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    border-bottom: 2px solid rgb(21, 11, 75);
+    border-bottom: 2px solid var(--background);
 }
   
 /* logo style  */
@@ -50,7 +55,7 @@ a{
     width: 94%;
     top: 6rem;
     left: 18px;
-    background-color: rgb(21, 11, 75);
+    background-color: var(--background);
     font-weight: 600;
   
 }
@@ -60,7 +65,7 @@ a{
     padding: 5px 0;
 }
 .nav-menu a:hover{
-    background-color: rgb(21, 11, 75);
+    background-color: var(--background_Hover);
 }
   
 .hide{
@@ -84,7 +89,7 @@ a{
         padding: 15px 20px;
     }
     .nav-menu a:hover{
-        background-color: rgb(77, 69, 124);
+        background-color: var(--background_Hover);
         border-radius: 5px;
     }
     .hamburger-menu{
