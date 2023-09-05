@@ -21,7 +21,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    border-bottom: 2px solid rgb(223, 251, 219);
+    border-bottom: 2px solid rgb(21, 11, 75);
 }
   
 /* logo style  */
@@ -50,7 +50,7 @@ a{
     width: 94%;
     top: 6rem;
     left: 18px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(21, 11, 75);
     font-weight: 600;
   
 }
@@ -60,7 +60,7 @@ a{
     padding: 5px 0;
 }
 .nav-menu a:hover{
-    background-color: rgb(223, 251, 219);
+    background-color: rgb(21, 11, 75);
 }
   
 .hide{
@@ -84,7 +84,7 @@ a{
         padding: 15px 20px;
     }
     .nav-menu a:hover{
-        background-color: rgb(223, 251, 219);
+        background-color: rgb(77, 69, 124);
         border-radius: 5px;
     }
     .hamburger-menu{
