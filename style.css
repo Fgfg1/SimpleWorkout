@@ -1,6 +1,8 @@
 :root{
     --Background: rgb(21, 11, 75);
     --Background_Hover: rgb(77, 69, 124); 
+    --Text_Color: black;
+    --Hamburger_Color: black;
 }
 *{
     box-sizing: border-box;
@@ -14,7 +16,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: var(--Text_Color);
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -46,7 +48,7 @@ a{
    width:2.5rem;
    height: 2px;
    margin-bottom: 10px;
-   background-color: black;
+   background-color: var(--Hamburger_Color);
    cursor: pointer;
 }
   
