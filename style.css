@@ -1,8 +1,9 @@
 :root{
     --Background: rgb(10,14,23);
     --Background_Hover: rgb(0, 0, 0); 
-    --Text_Color: black;
+    --Text_Color: gray;
     --Hamburger_Color: black;
+    --Line_Color: gray;
 }
 *{
     box-sizing: border-box;
@@ -28,7 +29,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    border-bottom: 2px solid var(--Background);
+    border-bottom: 2px solid var(--Line_Color);
 }
   
 /* logo style  */
