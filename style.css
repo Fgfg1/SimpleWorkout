@@ -68,6 +68,7 @@ a{
 }
 .nav-menu a:hover{
     background-color: var(--Background_Hover);
+    color: white;
 }
   
 .hide{
